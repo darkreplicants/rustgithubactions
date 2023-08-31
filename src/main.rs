@@ -18,5 +18,10 @@ mod tests {
         assert_eq!(16, cuadrado(4));
     }
 
+    #[test]
+    fn six_is_the_square_of_four() {
+        assert_eq!(6, cuadrado(4));
+    }
+
 }
 
